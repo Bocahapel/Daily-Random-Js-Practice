@@ -47,7 +47,7 @@ const doubleDigitSecond = second.toString().padStart(2, "0");
 } else if (hour === 12) {
   dayPeriod = "Noon";
 }*/
-
+//does this count as changes?
 //checking current time
 console.log(
   `${displayHour} : ${doubleDigitMinute} : ${doubleDigitSecond} ${timePeriod}`
